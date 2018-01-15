@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="Stylesheet" type="text/css" href="Sheet.css">
+</head>
+<body class ="Contact-bg">
+
+<header>
+    <div class="container">
+        <img width="8%" src="image/logo3.png" alt="logo" class="logo">
+
+        <div class="nav">
+            <div class="menu">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Profile.html">Profile</a></li>
+                    <li><a href="Contact.html"><b>Contact</b></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Menu
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Profile.html">Profile</a></li>
+                <li><a href="Contact.html"><b>Contact</b></a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<section id="contact" style ="" action="<a href="mailto:info@example.com?subject=email%20subject"></a>">
+    <div class ="container" style="margin-left: 31%">
+        <div class="row">
+            <div class="message" style="margin-bottom: 20px;">
+                <h1 style="color:darkolivegreen">I'd love to hear from you if you've liked my work </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <form name="sentmessage" id="contactForm" >
+                    <div class ="form-group">
+                        <label for="name">Your Name*</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter Your Name !" required="" data-validation-required-message="PLease Enter your Name.">
+                        <p class="help- block text-danger"></p>
+                    </div>
+                    <div class ="form-group">
+                        <label for="email">Your Email*</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter Your Email !" required="" data-validation-required-message="PLease Enter your Email.">
+                        <p class="help- block text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="tel">Your Number*</label>
+                        <input type="tel" class="form-control" id="tel" placeholder="Enter Your Number !" required="" data-validation-required-message="PLease Enter your Number.">
+                        <p class="help- block text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message*</label>
+                        <textarea class="form-control" id="message" placeholder="Enter Your Message !" required="" data-validation-required-message="PLease Enter your Message."></textarea>
+                        <p class="help- block text-danger"></p>
+                    </div>
+                    <div class="clearfix"></div>
+                        <div class="col-lg-12 text-center">
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-xl get"><a href="mailto:bhatia.jatin1997@gmail.com?subject=Contact%20related%20to%20the%20website%20work&amp;body=message">Send Message</a></button>
+                         </div>
+                </form>
+            </div>
+            <div class="col-sm-6">
+                <p style="color:darkolivegreen;">
+                    <strong><i class="fa fa-map-maker"></i><br><br>Address </strong><br>
+                    31 Rue Docteur Raffin,<br>
+                    69009 Lyon, France.
+                </p>
+                <p style="color:darkolivegreen;">
+                    <strong><i class="fa fa-map-maker"></i><br><br>Phone Number </strong><br>
+                    +33(0)-753101530
+                </p>
+                <p style="color:darkolivegreen;">
+                    <strong><i class="fa fa-map-maker"></i><br><br>Email</strong><br>
+                    bhatia.jatin1997@gmail.com
+                </p>
+            </div>
+        </div>
+    </div>
+
+</section>
+</body>
+</html>

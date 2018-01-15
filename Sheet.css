@@ -1,0 +1,122 @@
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+html{
+    font-family: "Times New Roman", sans-serif;
+}
+#header {
+    padding: 25px 0px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#qualification {
+
+}
+.Home-bg {
+    background: url("image/build.jpeg") no-repeat; height: 80%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Profile-bg {
+    background: url("image/sand.jpg") no-repeat; height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Contact-bg {
+    background: url("image/contact.jpg");height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+div {
+    display: block;
+}
+#wrapper {
+    width: 400px;
+    height: 400px;
+}
+#first {
+    float: left;
+    width: 33%;
+    height: 100%;
+    background-color: darkgrey;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: lightcoral;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+.nav {
+    border-bottom: 0 solid #EAEAEB;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+}
+.menu{
+    margin: 0 30px 0 0;
+}
+.menu ul{
+    clear: right;
+    text-decoration: none;
+    color: grey;
+    margin: 0 10px;
+    line-height: 70px;
+}
+.menu li{
+    display: inline-block;
+    margin-left: 90px;
+    padding-top: 15px;
+
+    position: relative;
+}
+.menu a {
+    color: #444;
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.menu a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0;
+    top: 0;
+    background-color: brown;
+    position: absolute;
+    transition: all ease-in-out 250ms;
+}
+
+.menu a:hover::before {
+    width: 100%;
+}
+
+.dropdown {
+    display: none;
+}
+@media only screen and (max-width: 650px) {
+ .dropdown {
+     display: block;
+     float: right;
+     margin: 32px 10px 0 0;
+ }
+ #button.dropdown-menu {
+     background-color: darkslategrey;
+ }
+ .nav {
+     display: none;
+ }
+}
+
